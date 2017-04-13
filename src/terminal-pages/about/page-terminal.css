@@ -1,0 +1,19 @@
+.selected{
+  color: #DC322F!important;
+}
+.content{
+  text-align: left;
+}
+.blinking-cursor{
+  display: none;
+}
+.selected .blinking-cursor{
+  display: inline-block;
+  animation:1s blink step-end infinite;
+}
+.download-cv:hover{
+  cursor: pointer;
+}
+.box > .error-404 {
+  background-color: #0000AA!important;
+}

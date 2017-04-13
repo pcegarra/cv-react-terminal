@@ -1,0 +1,284 @@
+
+html {
+    padding: 0;
+    margin: 0;
+    color: #555;
+    font-family: "Inconsolata", "Monaco", monospace;
+    font-size: 14px;
+    background-image: url('/bg-header-star.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+a:hover,
+a:visited,
+a:active,
+a:link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 3em;
+    text-align: center;
+    width: auto;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+    width: auto;
+    display: inline;
+    color: #09f;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1.em;2
+    text-align: left;
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0.2em;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title {
+}
+
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #09f;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #09f;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #09f;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #09f;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #09f;
+  }
+}
+
+#navigation {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#navigation ul {
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#navigation ul li {
+    display: inline-block;
+    padding: .4em;
+}
+
+#navigation ul li:hover {
+    color: #09f;
+}
+
+.content {
+    font-size: 1.2em;
+    padding: 0 2em 2em 2em;
+    line-height: 1.6em;
+}
+
+#about a:link,
+#about a:hover,
+#abouta:active,
+#about a:visited {
+    background-color: #555;
+    color: white;
+    padding: .2em;
+}
+
+#contact a:link,
+#contact a:hover,
+#contact:active,
+#contact a:visited {
+    background-color: #555;
+    color: white;
+    padding: .2em;
+}
+
+#home a:link,
+#home a:hover,
+#home a:active,
+#home a:visited {
+    background-color: red;
+    color: white;
+    padding: .2em;
+}
+
+#home a:hover {
+    opacity: 0.6;
+}
+
+#writing a:link,
+#writing a:hover,
+#writing a:active,
+#writing a:visited {
+    color: #333;
+    padding: .2em;
+    text-decoration: underline;
+    text-decoration-color: #09f;
+    -webkit-text-decoration-color: #09f;
+    -moz-text-decoration-color: #09f;
+}
+
+#writing a:hover {
+    color: #09f;
+}
+
+/* Link Styles */
+#blog {
+    background-color: #F6F2F1 !important;
+    color: #dc7604 !important;
+}
+
+#twitter {
+    background-color: #1DA1F2 !important;
+    color: #fff !important;
+}
+
+#instagram {
+    background-color: #ff1868 !important;
+    color: #fff !important;
+}
+
+#pretty {
+    background-color: #003c78 !important;
+    color: #fddb00 !important;
+
+}
+#px {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+#github {
+    background-color: #000 !important;
+    color: #3acaff !important;
+}
+
+#youtube {
+    background-color: red !important;
+    color: #fff !important;
+}
+
+#qwiki {
+    background-color: #FFA915 !important;
+    color: #fff !important;
+}
+
+#tapgap {
+    background-color: #FFA915 !important;
+    color: #000000 !important;
+}
+
+#ph {
+    background-color: #fa5619 !important;
+    color: #fff !important;
+}
+
+
+.red {
+    color: red;
+}
+
+#workitem {
+    margin-bottom: 2.4em;
+    margin-top: .6em;
+    overflow: none;
+}
+
+#workitem meta {
+
+}
+
+#workitemimg {
+    height: auto;
+    width: auto;
+
+    max-height: 300px;
+    max-width: 600px;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.AboutMe{
+  position: relative;
+  top: 60px;
+}
+
+#work h3{
+
+color: rgb(162, 162, 168); background-color: rgb(38, 38, 38);
+
+
+
+}
