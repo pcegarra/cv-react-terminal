@@ -50,8 +50,8 @@ const AboutMe = () => (
       <p>Soy Pablo Cegarra, programador multiplataforma apto para cualquier tipo de proyecto de desarrollo software, especializado en APPs.</p>
       <p>Actualmente trabajo en una pequeña empresa de programación en Vigo llamada Pumpún Dixital. En esta empresa me he responsabilizado del desarrollo Android y del diseño Frontend de las webs.</p>
       <p>También he trabajado como Backend creando la infrastructura del servidor de nuestras aplicaciones. Puedes ver mi experiencia en la sección <Link to="/trabajos">Trabajos</Link></p>
-      <p>A partir del 4 de Abril de 2017 estoy disponible para formar parte de nuevos proyectos, así que si crees que puedo ayudaros, visíta la página de <Link to="/contactar">Contacto</Link> donde
-      encontrarás mis datos personales.</p>
+      <p><s>A partir del 4 de Abril de 2017 estoy disponible para formar parte de nuevos proyectos, así que si crees que puedo ayudaros, visíta la página de <Link to="/contactar">Contacto</Link> donde
+      encontrarás mis datos personales.</s></p>
       <h2>Habilidades</h2>
       <p><u>Personal:</u></p>
       <li>Trabajador, Actualizado, Creativo, Coordinador de proyectos, Versátil, Detallista, Positivo.</li>
