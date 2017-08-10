@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bokuweb/react-draggable-custom": "^1.4.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-particles-js": "^1.5.0",
+    "react-resizable-box": "^2.0.6",
     "react-router-dom": "^4.0.0"
   },
   "devDependencies": {
