@@ -21,7 +21,7 @@ export default class Welcome extends React.Component {
                   <li><NavLink to="/trabajos" activeClassName="selected">&#x1F4BB; Trabajos<span className="blinking-cursor">_</span></NavLink></li>
                   <li><NavLink to="/estudios" activeClassName="selected">&#x1F4D3; Estudios<span className="blinking-cursor">_</span></NavLink></li>
                   <li><NavLink to="/contactar" activeClassName="selected">&#x1f4de; Contactar<span className="blinking-cursor">_</span></NavLink></li>
-                  <li><a download target="_blank" href="./cv-pablo-cegarra.pdf" className="download-cv">&#x1f4ce; Descargar CV<span className="blinking-cursor">_</span></a></li>
+                  <li><a download target="_blank" href="./cv" className="download-cv">&#x1f4ce; Descargar CV<span className="blinking-cursor">_</span></a></li>
 
               </ul>
           </div>
